@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"
-import "./App.css"
+import "./styles/App.css"
 import { Routes, Route } from "react-router-dom"
 import Clock from "./containers/clock"
 import BtnPanel from "./containers/btn-panel"
