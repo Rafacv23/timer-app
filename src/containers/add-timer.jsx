@@ -1,26 +1,26 @@
-import React, { useState } from 'react';
+import React, { useState } from "react"
 
 const AddTimer = (props) => {
-  const [hours, setHours] = useState(0);
-  const [mins, setMins] = useState(0);
-  const [secs, setSecs] = useState(0);
+  const [hours, setHours] = useState(0)
+  const [mins, setMins] = useState(0)
+  const [secs, setSecs] = useState(0)
 
   const handleHoursChange = (event) => {
-    setHours(parseInt(event.target.value));
-  };
+    setHours(parseInt(event.target.value))
+  }
 
   const handleMinsChange = (event) => {
-    setMins(parseInt(event.target.value));
-  };
+    setMins(parseInt(event.target.value))
+  }
 
   const handleSecsChange = (event) => {
-    setSecs(parseInt(event.target.value));
-  };
+    setSecs(parseInt(event.target.value))
+  }
 
   const handleSubmit = (event) => {
-    event.preventDefault();
-    props.onSubmit(hours, mins, secs);
-  };
+    event.preventDefault()
+    props.onSubmit(hours, mins, secs)
+  }
 
   return (
     <form onSubmit={handleSubmit}>
@@ -63,7 +63,7 @@ const AddTimer = (props) => {
     <button className="stop-btn" type="submit">Add Timer</button>
     </div>
     </form>
-  );
-};
+  )
+}
 
-export default AddTimer;
+export default AddTimer

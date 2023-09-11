@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react"
 
 const TimeText = (props) => {
-    return (
+  return (
         <p className={props.className}>
             {props.text}
         </p>
-    );
+  )
 }
 
-export default TimeText;
+export default TimeText
