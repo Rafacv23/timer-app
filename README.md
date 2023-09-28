@@ -1,6 +1,6 @@
 # React Clock and Timer App
 
-![App Demo](demo.gif)
+![App Demo](./src//media/timer-video.gif)
 
 A simple web application built with React and CSS that serves as a clock, stopwatch, and timer. You can also create custom timers.
 
@@ -16,8 +16,6 @@ A simple web application built with React and CSS that serves as a clock, stopwa
 ## Demo
 
 Check out the live demo [here](https://timer-app-taupe.vercel.app/).
-
-![App Screenshot](screenshot.png)
 
 ## Installation
 
